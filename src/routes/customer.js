@@ -1,5 +1,10 @@
 module.exports = function(app){
-   app.get("/customer", function(req, res){
-      res.send("customer html.");
-   });
+
+   //Customer routing
+    var cc = require("../controllers/customer");
+    app.get("/customer", cc.find);
+    app.get("/customer/:id", cc.findById);
+    app.post("/customer", cc.add);
+    app.put("/customer/:id", cc.update);
+    app.delete("/customer/:id", cc.delete);
 }
