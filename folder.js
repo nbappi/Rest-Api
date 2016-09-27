@@ -1,0 +1,15 @@
+package.json
+index.js
+node_modules/
+src/
+|-config/
+  |-constants.js
+|-controllers/
+|-dao/
+|-middleware/
+  |-basic-auth.js
+  |-db.js
+|-models/
+|-routes/
+|-util/
+|-validate/
