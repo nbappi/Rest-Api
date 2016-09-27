@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nbappi/rest-api/issues"
   },
-  "homepage": "https://github.com/nbappi/rest-api#readme"
+  "homepage": "https://github.com/nbappi/rest-api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
